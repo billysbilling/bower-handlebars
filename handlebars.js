@@ -2276,3 +2276,6 @@ Handlebars.template = Handlebars.VM.template;
 // lib/handlebars/browser-suffix.js
 })(Handlebars);
 ;
+
+//[sebastianseilund] Added this to support module style
+window.Handlebars = module.exports = Handlebars;
